@@ -26,15 +26,15 @@ def shopPlace(seed, n):
             dist = math.sqrt(abs(num))
             print(dist)
             
-            if dist < 50:
-                x = x + 50 - abs(xx[0] - ar[0])
-                y = y + 50 - abs(xx[1] - ar[1])
+            if dist < 20:
+                x = x + 20 - abs(xx[0] - ar[0])
+                y = y + 20 - abs(xx[1] - ar[1])
         arr.append(ar)
         
         t.penup()
         t.goto(x,y)
         t.pendown()
-        t.dot(15)
+        t.dot(5)
 def antPlace():
     t.penup()
     ch = random.randrange(0,len(arr))
@@ -43,8 +43,14 @@ def antPlace():
     print(pa)
     t.goto(pa[0],pa[1])
     t.pendown()
+    return pa
+def move(r):
+    pass
+    
+
+
 seedd = input("Enter a seed: ")
-shopPlace(seedd, 10)
-antPlace()
-input("Enter any random string to exit: ")
+shopPlace(seedd, 16)
+r = antPlace()
+move(r)
 turtle.done()
