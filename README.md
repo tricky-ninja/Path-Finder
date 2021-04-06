@@ -16,7 +16,7 @@ First you need to [download python](https://www.python.org/downloads/) if you ha
 
 Then type this in your terminal
 ``` cd Path-Finder ```
-Then type this
+then type this
 ``` python main.py ```
 ###### Thats it :)
-> Feel free to edit
+Feel free to edit
