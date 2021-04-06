@@ -4,6 +4,7 @@ This a python program that will find the shortest path to visit all points using
 # How this works
 ![Working of the program](https://cdn.discordapp.com/attachments/773225667873079327/828952302156382239/demo2.PNG)
 ![Finished result](https://cdn.discordapp.com/attachments/773225667873079327/828952271193899048/demo.PNG)
+
 This genrates a random set of dots and finds the shortest path to visit all points once using ant colony optimization algorithm.
 This needs a bit more work as of now only one ant is being used
 
