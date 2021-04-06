@@ -65,7 +65,7 @@ def short(r):
     
     return near_town
 
-# function to move to the shortest town
+# function to move to the nearest town
 def move(r):
     cord = r
     done.append(r)
