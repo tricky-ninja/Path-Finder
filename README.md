@@ -18,5 +18,7 @@ Then type this in your terminal
 ``` cd Path-Finder ```
 then type this
 ``` python main.py ```
-###### Thats it :)
+
+
+Thats it :)
 Feel free to edit
