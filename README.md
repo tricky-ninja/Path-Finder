@@ -9,7 +9,7 @@ This can only genrate a random set of dots now but i hope to give it the abillit
 To use this you need to clone it your pc
 
 ``` git clone https://github.com/Xhackers7/Path-Finder/ ```
-Type this in your terminal to clone this repo to your pc
+type this in your terminal to clone this repo to your pc
 
 ## 2 - Run the program
 First you need to [download python](https://www.python.org/downloads/) if you haven't already
